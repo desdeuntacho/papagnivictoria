@@ -51,7 +51,7 @@ body p span {
 
 .ficha-tecnica {
   margin-top: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .ficha-tecnica p {
@@ -68,11 +68,11 @@ body p span {
 }
 
 .concepto img:first-of-type {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .concepto img {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 .concepto .span1 {
