@@ -1,0 +1,116 @@
+.row {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: "Courier New";
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+body a {
+  color: initial;
+}
+
+body a:hover, body a:focus {
+  color: hotpink;
+}
+
+body h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: hotpink;
+}
+
+body h2 {
+  color: hotpink;
+}
+
+body img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin: auto;
+}
+
+body ul {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+body ul li {
+  padding: 2.5px 0;
+}
+
+body p span {
+  font-style: italic;
+}
+
+.ficha-tecnica {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.ficha-tecnica p {
+  margin-bottom: 0px;
+}
+
+.ficha-tecnica img:first-of-type {
+  margin-top: 35px;
+}
+
+.concepto {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.concepto img:first-of-type {
+  margin-top: 40px;
+}
+
+.concepto img {
+  margin-bottom: 25px;
+}
+
+.concepto .span1 {
+  color: hotpink;
+}
+
+.videos {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portada-disco {
+  width: 50%;
+  margin: auto;
+  height: auto;
+  padding: 15px;
+}
+
+.disco-1 {
+  width: 38%;
+  float: left;
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .disco-1 {
+    width: 100%;
+  }
+}
+
+.disco-2 {
+  width: 38%;
+  float: right;
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .disco-2 {
+    width: 100%;
+  }
+}
