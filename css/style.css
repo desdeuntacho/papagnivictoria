@@ -18,15 +18,22 @@ body a:hover, body a:focus {
 }
 
 body h1 {
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 20px;
   margin-bottom: 30px;
   text-align: center;
+}
+
+body h1, body h2, body h3 {
   color: hotpink;
 }
 
 body h2 {
-  color: hotpink;
+  font-size: 20px;
+}
+
+body h3 {
+  font-size: 16px;
 }
 
 body img {
@@ -50,8 +57,16 @@ body p span {
 }
 
 .ficha-tecnica {
-  margin-top: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  width: 38%;
+  float: right;
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .ficha-tecnica {
+    width: 100%;
+  }
 }
 
 .ficha-tecnica p {
@@ -63,12 +78,13 @@ body p span {
 }
 
 .concepto {
+  clear: both;
   margin-top: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .concepto img:first-of-type {
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .concepto img {
@@ -80,8 +96,22 @@ body p span {
 }
 
 .videos {
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  clear: both;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.videos iframe, .videos object, .videos embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .portada-disco {
@@ -89,28 +119,4 @@ body p span {
   margin: auto;
   height: auto;
   padding: 15px;
-}
-
-.disco-1 {
-  width: 38%;
-  float: left;
-  text-align: left;
-}
-
-@media (max-width: 767px) {
-  .disco-1 {
-    width: 100%;
-  }
-}
-
-.disco-2 {
-  width: 38%;
-  float: right;
-  text-align: right;
-}
-
-@media (max-width: 767px) {
-  .disco-2 {
-    width: 100%;
-  }
 }
